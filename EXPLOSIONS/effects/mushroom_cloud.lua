@@ -1,8 +1,11 @@
 --reduce original effects.
-if Effects[14].Colour1 then Effects[14].Colour1 = { 255, 255, 255, 0 } end
-if Effects[14].Colour2 then Effects[14].Colour2 = { 255, 160, 90, 0 } end
-if Effects[15].Colour1 then Effects[15].Colour1 = { 255, 255, 255, 128 } end
-if Effects[15].Colour2 then Effects[15].Colour2 = { 255, 255, 255, 128 } end
+if Effects then
+	if Effects[14].Colour1 then Effects[14].Colour1 = { 255, 255, 255, 0 } end
+	if Effects[14].Colour2 then Effects[14].Colour2 = { 255, 160, 90, 0 } end
+	if Effects[15].Colour1 then Effects[15].Colour1 = { 255, 255, 255, 128 } end
+	if Effects[15].Colour2 then Effects[15].Colour2 = { 255, 255, 255, 128 } end
+end
+if not Effects then Effects = {} end
 --add new bloomies
 table.insert(Effects, 
 	{
@@ -111,7 +114,7 @@ table.insert(Effects,
 		FalloffStart = 3000,
 		FalloffEnd = 10000,
 		TimeToTrigger = 0,
-		TimeToLive = 0.3,
-		Magnitude = 150,
+		TimeToLive = 0.45,
+		Magnitude = 300,
 	}
 )
