@@ -287,6 +287,9 @@ function sb_apply_fx()
 				end
 			end
 		end
+		if v.TrailEffect and sbe_effects_list[v.TrailEffect] then
+			v.TrailEffect = sbe_effects_list[v.TrailEffect]
+		end
 	end
 end
 --sb_apply_fx()
