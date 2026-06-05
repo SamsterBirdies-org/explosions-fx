@@ -18,7 +18,7 @@ data.effect_destruct =
 	upgrade = ed1, dome = ed1, harpoon = ed1, mortar = ed1, mortar2 = ed1,
 	--medium
 	comms = ed2, workshop = ed2, armoury = ed2, munitions = ed2,
-	orbital_laser = ed2, orbital_laser2 = ed2, ammo_thunderbolt = ed2, ammo_nighthawk = ed2, 
+	orbital_laser = ed2, orbital_laser2 = ed2, ammo_thunderbolt = ed1, ammo_nighthawk = ed1,  
 	ammo_control = ed2, subswarm = ed2, sublauncher = ed2, missile = ed2, missile2 = ed2,
 	--large
 	turret = ed3, turret2 = ed3, turret2_focus = ed3, turret3 = ed3, turret3_focus = ed3,
@@ -28,6 +28,8 @@ data.effect_destruct =
 	ammo_orbital_sweep = path .. "/effects/firebeam_explode.lua", 
 	ammo_orbital_focus = "effects/battery_explode.lua",
 	factory = "effects/battery_explode.lua",
+	magnabeam = path .. "/effects/magna_explode.lua",
+	emp_beam = path .. "/effects/impact_emp.lua",
 }
 data.effect_impact =
 {
