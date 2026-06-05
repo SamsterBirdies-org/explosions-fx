@@ -6,7 +6,8 @@ Effects =
 	Flames(4, 0.4, 1300),
 	Flames(3, 0.8, 2200),
 	Flames(4, 0.7, 900),
-	Smoke(9, 9, 6, 400),
+	Smoke(9, 9, 6, 200),
+	Smoke(9, 4, 6, 350),
 	Dirt(1, 1000),
 	Dirt(0.3, 3000),
 	{
@@ -41,7 +42,7 @@ Effects =
 		ExpansionRate = 1000,
 		Angle = -90,
 		AngularVelocity = 0,
-		RandomAngularVelocityMagnitude = 100,
+		RandomAngularVelocityMagnitude = 00,
 		Colour1 = { 255, 150, 60, 168 },
 		Colour2 = { 255, 70, 0, 0 },
 	},
