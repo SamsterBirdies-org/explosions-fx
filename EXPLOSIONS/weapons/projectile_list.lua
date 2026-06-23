@@ -241,7 +241,7 @@ for k, v in pairs(Projectiles) do
 		v.Effects.Impact.default = path .. "/effects/impact_paveway.lua"
 		v.Effects.Impact.antiair = path .. "/effects/hs_explosion_airburst.lua"
 	elseif sbeat(v.SaveName, "turret") then
-		v.Effects.Impact.default = path .. "/effects/impact_turret.lua"
+		--v.Effects.Impact.default = path .. "/effects/impact_turret.lua"
 		v.Effects.Impact.antiair = path .. "/effects/hs_explosion_airburst.lua"
 	end
 	--convert some trail effects
@@ -315,7 +315,7 @@ sbe_effects_list["mods/dlc2/effects/fire_deckgun.lua"] = path .. "/effects/fire_
 sbe_effects_list["mods/dlc2/effects/fire_deckgun_2.lua"] = path .. "/effects/fire_deckgun_2.lua"
 sbe_effects_list["mods/dlc2/effects/fire_deckgun_3.lua"] = path .. "/effects/fire_deckgun_3.lua"
 sbe_effects_list["mods/dlc2/effects/impact_bombs.lua"] = path .. "/effects/impact_bombs.lua"
-sbe_effects_list["mods/dlc2/effects/impact_turret.lua"] = path .. "/effects/impact_turret.lua"
+--sbe_effects_list["mods/dlc2/effects/impact_turret.lua"] = path .. "/effects/impact_turret.lua"
 sbe_effects_list["mods/dlc2/effects/impact_paveway.lua"] = path .. "/effects/impact_paveway.lua"
 sbe_effects_list["mods/dlc2/effects/explosion_airburst.lua"] = path .. "/effects/hs_explosion_airburst.lua"
 sbe_effects_list["mods/dlc3/effects/emp_beam_hit.lua"] = path .. "/effects/empbeam_hit.lua"
